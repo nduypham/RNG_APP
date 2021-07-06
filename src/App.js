@@ -1,25 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import './styles.css';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Router>
+			<div className="nicdark_site nicdark_bg_white nicdark_front_page ">
+				{/* <Responsive />
+				<Header />
+				<Tool />
+				<Content>
+					<Switch>
+						<Route path="/" exact>
+							<Home />
+						</Route>
+						<Route path="/home1" exact>
+							<Home1 />
+						</Route>
+						<Route path="/cong-nghe" exact>
+							<Technology />
+						</Route>
+						<Route path="/cong-nghe/cong-nghe-chi-tiet" exact>
+							<TechnologyDetails />
+						</Route>
+						<Route path="/sign-in" exact>
+							<Login />
+						</Route>
+					</Switch>
+				</Content>
+				<Footer /> */}
+				<h1>dddd</h1>
+			</div>
+		</Router>
+	);
 }
 
 export default App;
